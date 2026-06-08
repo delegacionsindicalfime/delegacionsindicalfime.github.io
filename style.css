@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*font-family: "Jersey 10", sans-serif; (Primera Fuente - pixel)*/
+/*font-family: "Cousine", monospace; (Segunda Fuente)*/
+
+body {
+    font-family: fantasy;
+    margin: 0;
+    background-image: url(Imagenes/background.jpg);
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.logo {
+    display: flex;
+    font-family: "Playfair Display", sans-serif;
+    color: royalblue;
+    font-size: 18px;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    font-family: "Cousine";
+    font-size: 20px;
+    color: black;
+
+}
+
+nav a:hover {
+   color: red;
+}
+
+.imagen_fime {
+	width: 100%;
+	max-width: 100%;
+	height: 280px;
+}
+
+
+.mensaje_inicial {
+	font-family: "Playfair Display", sans-serif;
+	font-size: 18px;
+	display: flex;
+	border-radius: 10px;
+	border-style: solid;
+	width: 650px;
+	height: 120px;
+	color: royalblue;
+}
+
+footer {
+    background-color: #D3D3D3;
+    font-size: 24px;
+    width: 100%;
+	max-width: 100%;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.mensaje_bienvenida {
+	width: 950px;
+	height: 250px;
+	border-radius: 10px;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 30px;
+	background-image: url(Imagenes/fondo_blanco.jpg);
+}
+
+.mensaje_bienvenida p {
+	text-align: justify;
+}
+
+.mensaje_bienvenida b {
+	color: darkred;
+}
+
+.text_docyfor {
+	font-family: "Playfair Display", sans-serif;
+	font-size: 30px;
+	border-radius: 10px;
+	border-style: solid;
+	width: 1100px;
+	height: auto;
+}
+
+.text_docyfor p {
+	color: red;
+}
+
+.text_docyfor b {
+	color: royalblue;
+	font-size: 50px;
+}
+
+.text_docyfor a {
+	color: black;
+}
+
+.text_docyfor a:hover {
+	color: orangered;
+}
+
+.text_descargas {
+	font-family: "Playfair Display", sans-serif;
+	font-size: 30px;
+	border-radius: 10px;
+	border-style: solid;
+	width: 1100px;
+	height: auto;
+}
+
+.text_descargas p {
+	color: red;
+}
+
+.text_descargas b {
+	color: royalblue;
+	font-size: 50px;
+}
+
+.text_descargas a {
+	color: black;
+}
+
+.text_descargas a:hover {
+	color: orangered;
+}
